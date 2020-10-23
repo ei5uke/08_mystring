@@ -6,3 +6,6 @@ main.o: main.c work08.h
 
 work08.o: work08.c work08.h
 	gcc -c work08.c
+
+run:
+	./work08
